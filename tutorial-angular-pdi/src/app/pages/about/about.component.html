@@ -1,0 +1,7 @@
+<button color='primary' routerLink='/home' mat-raised-button>ir para o home</button>
+
+<mat-icon *ngIf="happy.happinessLevel == 5">sentiment_very_satisfied</mat-icon>
+<mat-icon *ngIf="happy.happinessLevel == 4">sentiment_satisfied</mat-icon>
+<mat-icon *ngIf="happy.happinessLevel == 3">sentiment_neutral</mat-icon>
+<mat-icon *ngIf="happy.happinessLevel == 2">sentiment_dissatisfied</mat-icon>
+<mat-icon *ngIf="happy.happinessLevel == 1">sentiment_very_dissatisfied</mat-icon>

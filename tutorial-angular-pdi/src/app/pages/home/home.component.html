@@ -1,0 +1,10 @@
+<button color='primary' routerLink='/about' mat-raised-button>ir para o sobre</button>
+<br><br>
+<mat-label>
+    tanto que eu estou feliz no momento:
+    <mat-slider min="1" max="5" [(value)]="happy.happinessLevel" thumbLabel></mat-slider>
+</mat-label>
+<br><br>
+<app-about></app-about>
+<br><br>
+<h1>{{ happy.happinessLevel }}</h1>
